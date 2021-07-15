@@ -30,15 +30,15 @@ def time_to_seconds(time):
 ## Commands --------------------------------
 @bot.on_message(filters.command(['start']))
 def start(client, message):
-   Yᴇᴀɢᴇʀɪsᴛ Bᴏᴛs = f'👋 𝗛𝗲𝗹𝗹𝗼 @{message.from_user.username}\n\n𝗜 𝗔𝗺 🎸𓂀 𝕐συ𝕋υႦҽ 𝕊σɳɠ 𝔻σɯɳʅσαԃҽɾ[🎶](https://telegra.ph/file/34e13355f6753772d4e3f.mp4)\n\n𝗦𝗲𝗻𝗱 𝗧𝗵𝗲 𝗡𝗮𝗺𝗲 𝗢𝗳 𝗧𝗵𝗲 𝗦𝗼𝗻𝗴 𝗬𝗼𝘂 𝗪𝗮𝗻𝘁... 😍🥰🤗\n\n𝗧𝘆𝗽𝗲 /s 𝗦𝗼𝗻𝗴 𝗡𝗮𝗺𝗲\n\n𝐄𝐠. `/s Faded`'
+   Yᴇᴀɢᴇʀɪsᴛ Bᴏᴛs = f'Hai @{message.from_user.username}\n\n`Iam a simple YouTube music downloader.send me any song name`\n\n👲 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : [ʙx ʙᴏᴛᴢ](https://t.me/BX_Botz)'
     message.reply_text(
         text=Yᴇᴀɢᴇʀɪsᴛ Bᴏᴛs , 
         quote=False,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Updates 👬', url='https://t.me/Animemusicarchive6'),
-                    InlineKeyboardButton('Support 🤗', url='https://t.me/Yeageristbots')
+                    InlineKeyboardButton('🤖 Update Channel', url='https://t.me/BX_Botz'),
+                    InlineKeyboardButton('👥Support Group', url='https://t.me/BxSupport')
                 ]
             ]
         )
