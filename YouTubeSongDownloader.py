@@ -30,7 +30,7 @@ def time_to_seconds(time):
 ## Commands --------------------------------
 @bot.on_message(filters.command(['start']))
 def start(client, message):
-   Yᴇᴀɢᴇʀɪsᴛ Bᴏᴛs = f'Hai @{message.from_user.username}\n\n`Iam a simple YouTube music downloader.send me any song name`\n\n👲 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : [ʙx ʙᴏᴛᴢ](https://t.me/BX_Botz)'
+   Yᴇᴀɢᴇʀɪsᴛ Bᴏᴛs = f'Hai @{message.from_user.username}\n\n `Iam a simple YouTube music downloader.send me any song name`\n\n👲 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : [ʙx ʙᴏᴛᴢ](https://t.me/BX_Botz)'
     message.reply_text(
         text=Yᴇᴀɢᴇʀɪsᴛ Bᴏᴛs , 
         quote=False,
